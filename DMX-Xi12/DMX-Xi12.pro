@@ -1,4 +1,4 @@
-update=30/01/2016 23:45:38
+update=05/02/2016 23:12:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Components
+LibDir=../Components;../../../../Update and Installs/Updates and Installs/Kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=M:/Google Drive/GitHub/TEP-Lightshow/Components/DMX-Xi12
+LibName31=dips-s.lib/dips-s
+LibName32=MyPower

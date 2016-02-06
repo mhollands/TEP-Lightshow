@@ -1,0 +1,302 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DMX-Xi12
+LIBS:dips-s
+LIBS:MyPower
+LIBS:DMX-Xi12-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AN-3003 U?
+U 1 1 56B99656
+P 3900 1600
+F 0 "U?" H 3650 2100 60  0000 C CNN
+F 1 "AN-3003" H 4150 2100 60  0000 C CNN
+F 2 "" H 3900 1600 60  0000 C CNN
+F 3 "" H 3900 1600 60  0000 C CNN
+	1    3900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56B9965D
+P 2950 1350
+F 0 "R?" V 3030 1350 50  0000 C CNN
+F 1 "200R" V 2950 1350 50  0000 C CNN
+F 2 "" V 2880 1350 50  0000 C CNN
+F 3 "" H 2950 1350 50  0000 C CNN
+	1    2950 1350
+	0    1    1    0   
+$EndComp
+Text HLabel 2400 1350 0    60   Input ~ 0
+CH31
+Wire Wire Line
+	2400 1350 2800 1350
+Wire Wire Line
+	3100 1350 3350 1350
+$Comp
+L GND #PWR?
+U 1 1 56B99667
+P 2750 1800
+F 0 "#PWR?" H 2750 1550 50  0001 C CNN
+F 1 "GND" H 2750 1650 50  0000 C CNN
+F 2 "" H 2750 1800 50  0000 C CNN
+F 3 "" H 2750 1800 50  0000 C CNN
+	1    2750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1600 2750 1600
+Wire Wire Line
+	2750 1600 2750 1800
+NoConn ~ 3350 1850
+NoConn ~ 4550 1600
+$Comp
+L R R?
+U 1 1 56B99671
+P 4800 1350
+F 0 "R?" V 4880 1350 50  0000 C CNN
+F 1 "180R" V 4800 1350 50  0000 C CNN
+F 2 "" V 4730 1350 50  0000 C CNN
+F 3 "" H 4800 1350 50  0000 C CNN
+	1    4800 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56B99678
+P 5300 1350
+F 0 "R?" V 5380 1350 50  0000 C CNN
+F 1 "800R" V 5300 1350 50  0000 C CNN
+F 2 "" V 5230 1350 50  0000 C CNN
+F 3 "" H 5300 1350 50  0000 C CNN
+	1    5300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 56B9967F
+P 5050 1650
+F 0 "C?" H 5075 1750 50  0000 L CNN
+F 1 "0.3u" H 5075 1550 50  0000 L CNN
+F 2 "" H 5088 1500 50  0000 C CNN
+F 3 "" H 5050 1650 50  0000 C CNN
+	1    5050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1350 4650 1350
+Wire Wire Line
+	4950 1350 5150 1350
+Wire Wire Line
+	5050 1350 5050 1500
+Connection ~ 5050 1350
+$Comp
+L BTA20 U?
+U 1 1 56B9968A
+P 5750 1850
+F 0 "U?" H 5950 2050 60  0000 C CNN
+F 1 "BTA20" H 5650 2050 60  0000 C CNN
+F 2 "" H 5750 1850 60  0000 C CNN
+F 3 "" H 5750 1850 60  0000 C CNN
+	1    5750 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 1350 5750 1350
+Wire Wire Line
+	4550 1850 5400 1850
+Wire Wire Line
+	5750 1200 5750 1400
+Wire Wire Line
+	5050 1800 5050 2400
+Wire Wire Line
+	5050 2400 5750 2400
+Wire Wire Line
+	5750 2300 5750 2550
+$Comp
+L Live U?
+U 1 1 56B99697
+P 5750 1200
+F 0 "U?" H 5800 1250 60  0000 C CNN
+F 1 "Live" H 5750 1450 60  0000 C CNN
+F 2 "" H 5750 1200 60  0000 C CNN
+F 3 "" H 5750 1200 60  0000 C CNN
+	1    5750 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1350
+Connection ~ 5750 2400
+$Comp
+L Neutral U?
+U 1 1 56B996A0
+P 5750 2550
+F 0 "U?" H 6000 2750 60  0000 C CNN
+F 1 "Neutral" H 5750 2800 60  0000 C CNN
+F 2 "" H 5750 2550 60  0000 C CNN
+F 3 "" H 5750 2550 60  0000 C CNN
+	1    5750 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L AN-3003 U?
+U 1 1 56B996A7
+P 3900 3700
+F 0 "U?" H 3650 4200 60  0000 C CNN
+F 1 "AN-3003" H 4150 4200 60  0000 C CNN
+F 2 "" H 3900 3700 60  0000 C CNN
+F 3 "" H 3900 3700 60  0000 C CNN
+	1    3900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56B996AE
+P 2950 3450
+F 0 "R?" V 3030 3450 50  0000 C CNN
+F 1 "200R" V 2950 3450 50  0000 C CNN
+F 2 "" V 2880 3450 50  0000 C CNN
+F 3 "" H 2950 3450 50  0000 C CNN
+	1    2950 3450
+	0    1    1    0   
+$EndComp
+Text HLabel 2400 3450 0    60   Input ~ 0
+CH32
+Wire Wire Line
+	2400 3450 2800 3450
+Wire Wire Line
+	3100 3450 3350 3450
+$Comp
+L GND #PWR?
+U 1 1 56B996B8
+P 2750 3900
+F 0 "#PWR?" H 2750 3650 50  0001 C CNN
+F 1 "GND" H 2750 3750 50  0000 C CNN
+F 2 "" H 2750 3900 50  0000 C CNN
+F 3 "" H 2750 3900 50  0000 C CNN
+	1    2750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3700 2750 3700
+Wire Wire Line
+	2750 3700 2750 3900
+NoConn ~ 3350 3950
+NoConn ~ 4550 3700
+$Comp
+L R R?
+U 1 1 56B996C2
+P 4800 3450
+F 0 "R?" V 4880 3450 50  0000 C CNN
+F 1 "180R" V 4800 3450 50  0000 C CNN
+F 2 "" V 4730 3450 50  0000 C CNN
+F 3 "" H 4800 3450 50  0000 C CNN
+	1    4800 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56B996C9
+P 5300 3450
+F 0 "R?" V 5380 3450 50  0000 C CNN
+F 1 "800R" V 5300 3450 50  0000 C CNN
+F 2 "" V 5230 3450 50  0000 C CNN
+F 3 "" H 5300 3450 50  0000 C CNN
+	1    5300 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 56B996D0
+P 5050 3750
+F 0 "C?" H 5075 3850 50  0000 L CNN
+F 1 "0.3u" H 5075 3650 50  0000 L CNN
+F 2 "" H 5088 3600 50  0000 C CNN
+F 3 "" H 5050 3750 50  0000 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3450 4650 3450
+Wire Wire Line
+	4950 3450 5150 3450
+Wire Wire Line
+	5050 3450 5050 3600
+Connection ~ 5050 3450
+$Comp
+L BTA20 U?
+U 1 1 56B996DB
+P 5750 3950
+F 0 "U?" H 5950 4150 60  0000 C CNN
+F 1 "BTA20" H 5650 4150 60  0000 C CNN
+F 2 "" H 5750 3950 60  0000 C CNN
+F 3 "" H 5750 3950 60  0000 C CNN
+	1    5750 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3450 5750 3450
+Wire Wire Line
+	4550 3950 5400 3950
+Wire Wire Line
+	5750 3300 5750 3500
+Wire Wire Line
+	5050 3900 5050 4500
+Wire Wire Line
+	5050 4500 5750 4500
+Wire Wire Line
+	5750 4400 5750 4650
+$Comp
+L Live U?
+U 1 1 56B996E8
+P 5750 3300
+F 0 "U?" H 5800 3350 60  0000 C CNN
+F 1 "Live" H 5750 3550 60  0000 C CNN
+F 2 "" H 5750 3300 60  0000 C CNN
+F 3 "" H 5750 3300 60  0000 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3450
+Connection ~ 5750 4500
+$EndSCHEMATC
