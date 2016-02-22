@@ -245,17 +245,6 @@ F 3 "" H 3150 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
-U 1 1 56CCBF90
-P 3150 4050
-F 0 "#PWR?" H 3150 3900 50  0001 C CNN
-F 1 "+3.3V" H 3150 4190 50  0000 C CNN
-F 2 "" H 3150 4050 50  0000 C CNN
-F 3 "" H 3150 4050 50  0000 C CNN
-	1    3150 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 56CCC098
 P 3150 5250
@@ -331,7 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 2050 6900 2200
 Wire Wire Line
-	3150 4050 3150 4200
+	3150 4000 3150 4200
 Wire Wire Line
 	3150 4500 3150 4750
 Wire Wire Line
@@ -353,4 +342,15 @@ Zero_crossing
 Wire Wire Line
 	3450 4550 3150 4550
 Connection ~ 3150 4550
+$Comp
+L +5V #PWR?
+U 1 1 56CD2B25
+P 3150 4000
+F 0 "#PWR?" H 3150 3850 50  0001 C CNN
+F 1 "+5V" H 3150 4140 50  0000 C CNN
+F 2 "" H 3150 4000 50  0000 C CNN
+F 3 "" H 3150 4000 50  0000 C CNN
+	1    3150 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
