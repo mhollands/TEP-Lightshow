@@ -154,17 +154,6 @@ Wire Wire Line
 	4350 2050 5050 2050
 Wire Wire Line
 	5050 1950 5050 2200
-$Comp
-L Live U?
-U 1 1 56B97E46
-P 5050 850
-F 0 "U?" H 5100 900 60  0000 C CNN
-F 1 "Live" H 5050 1100 60  0000 C CNN
-F 2 "" H 5050 850 60  0000 C CNN
-F 3 "" H 5050 850 60  0000 C CNN
-	1    5050 850 
-	1    0    0    -1  
-$EndComp
 Connection ~ 5050 1000
 Connection ~ 5050 2050
 $Comp
@@ -286,17 +275,6 @@ Wire Wire Line
 	4350 4150 5050 4150
 Wire Wire Line
 	5050 4050 5050 4300
-$Comp
-L Live U?
-U 1 1 56B97E97
-P 5050 2950
-F 0 "U?" H 5100 3000 60  0000 C CNN
-F 1 "Live" H 5050 3200 60  0000 C CNN
-F 2 "" H 5050 2950 60  0000 C CNN
-F 3 "" H 5050 2950 60  0000 C CNN
-	1    5050 2950
-	1    0    0    -1  
-$EndComp
 Connection ~ 5050 3100
 Connection ~ 5050 4150
 $Comp
@@ -418,17 +396,6 @@ Wire Wire Line
 	4350 6200 5050 6200
 Wire Wire Line
 	5050 6100 5050 6350
-$Comp
-L Live U?
-U 1 1 56B97EE8
-P 5050 5000
-F 0 "U?" H 5100 5050 60  0000 C CNN
-F 1 "Live" H 5050 5250 60  0000 C CNN
-F 2 "" H 5050 5000 60  0000 C CNN
-F 3 "" H 5050 5000 60  0000 C CNN
-	1    5050 5000
-	1    0    0    -1  
-$EndComp
 Connection ~ 5050 5150
 Connection ~ 5050 6200
 $Comp
@@ -550,17 +517,6 @@ Wire Wire Line
 	8350 2050 9050 2050
 Wire Wire Line
 	9050 1950 9050 2200
-$Comp
-L Live U?
-U 1 1 56B97F39
-P 9050 850
-F 0 "U?" H 9100 900 60  0000 C CNN
-F 1 "Live" H 9050 1100 60  0000 C CNN
-F 2 "" H 9050 850 60  0000 C CNN
-F 3 "" H 9050 850 60  0000 C CNN
-	1    9050 850 
-	1    0    0    -1  
-$EndComp
 Connection ~ 9050 1000
 Connection ~ 9050 2050
 $Comp
@@ -682,17 +638,6 @@ Wire Wire Line
 	8350 4200 9050 4200
 Wire Wire Line
 	9050 4100 9050 4350
-$Comp
-L Live U?
-U 1 1 56B97F8A
-P 9050 3000
-F 0 "U?" H 9100 3050 60  0000 C CNN
-F 1 "Live" H 9050 3250 60  0000 C CNN
-F 2 "" H 9050 3000 60  0000 C CNN
-F 3 "" H 9050 3000 60  0000 C CNN
-	1    9050 3000
-	1    0    0    -1  
-$EndComp
 Connection ~ 9050 3150
 Connection ~ 9050 4200
 $Comp
@@ -814,17 +759,6 @@ Wire Wire Line
 	8350 6150 9050 6150
 Wire Wire Line
 	9050 6050 9050 6300
-$Comp
-L Live U?
-U 1 1 56B97FDB
-P 9050 4950
-F 0 "U?" H 9100 5000 60  0000 C CNN
-F 1 "Live" H 9050 5200 60  0000 C CNN
-F 2 "" H 9050 4950 60  0000 C CNN
-F 3 "" H 9050 4950 60  0000 C CNN
-	1    9050 4950
-	1    0    0    -1  
-$EndComp
 Connection ~ 9050 5100
 Connection ~ 9050 6150
 $Comp
@@ -838,4 +772,16 @@ F 3 "" H 9050 6300 60  0000 C CNN
 	1    9050 6300
 	-1   0    0    1   
 $EndComp
+Text Label 5050 850  1    60   ~ 0
+Live25
+Text Label 9050 850  1    60   ~ 0
+Live28
+Text Label 5050 2950 1    60   ~ 0
+Live26
+Text Label 9050 3000 1    60   ~ 0
+Live29
+Text Label 9050 4950 1    60   ~ 0
+Live30
+Text Label 5050 5000 1    60   ~ 0
+Live27
 $EndSCHEMATC

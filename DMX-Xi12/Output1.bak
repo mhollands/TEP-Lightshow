@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -147,24 +147,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 1550 3900 1550
 Wire Wire Line
-	4250 900  4250 1100
+	4250 750  4250 1100
 Wire Wire Line
 	3550 1500 3550 2100
 Wire Wire Line
 	3550 2100 4250 2100
 Wire Wire Line
 	4250 2000 4250 2250
-$Comp
-L Live U?
-U 1 1 56B6AA9B
-P 4250 900
-F 0 "U?" H 4300 950 60  0000 C CNN
-F 1 "Live" H 4250 1150 60  0000 C CNN
-F 2 "" H 4250 900 60  0000 C CNN
-F 3 "" H 4250 900 60  0000 C CNN
-	1    4250 900 
-	1    0    0    -1  
-$EndComp
 Connection ~ 4250 1050
 Connection ~ 4250 2100
 $Comp
@@ -279,24 +268,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 3650 3900 3650
 Wire Wire Line
-	4250 3000 4250 3200
+	4250 2900 4250 3200
 Wire Wire Line
 	3550 3600 3550 4200
 Wire Wire Line
 	3550 4200 4250 4200
 Wire Wire Line
 	4250 4100 4250 4350
-$Comp
-L Live U?
-U 1 1 56B6B7A0
-P 4250 3000
-F 0 "U?" H 4300 3050 60  0000 C CNN
-F 1 "Live" H 4250 3250 60  0000 C CNN
-F 2 "" H 4250 3000 60  0000 C CNN
-F 3 "" H 4250 3000 60  0000 C CNN
-	1    4250 3000
-	1    0    0    -1  
-$EndComp
 Connection ~ 4250 3150
 Connection ~ 4250 4200
 $Comp
@@ -411,24 +389,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 5700 3900 5700
 Wire Wire Line
-	4250 5050 4250 5250
+	4250 4950 4250 5250
 Wire Wire Line
 	3550 5650 3550 6250
 Wire Wire Line
 	3550 6250 4250 6250
 Wire Wire Line
 	4250 6150 4250 6400
-$Comp
-L Live U?
-U 1 1 56B6BA01
-P 4250 5050
-F 0 "U?" H 4300 5100 60  0000 C CNN
-F 1 "Live" H 4250 5300 60  0000 C CNN
-F 2 "" H 4250 5050 60  0000 C CNN
-F 3 "" H 4250 5050 60  0000 C CNN
-	1    4250 5050
-	1    0    0    -1  
-$EndComp
 Connection ~ 4250 5200
 Connection ~ 4250 6250
 $Comp
@@ -543,24 +510,13 @@ Wire Wire Line
 Wire Wire Line
 	7050 1550 7900 1550
 Wire Wire Line
-	8250 900  8250 1100
+	8250 750  8250 1100
 Wire Wire Line
 	7550 1500 7550 2100
 Wire Wire Line
 	7550 2100 8250 2100
 Wire Wire Line
 	8250 2000 8250 2250
-$Comp
-L Live U?
-U 1 1 56B6C132
-P 8250 900
-F 0 "U?" H 8300 950 60  0000 C CNN
-F 1 "Live" H 8250 1150 60  0000 C CNN
-F 2 "" H 8250 900 60  0000 C CNN
-F 3 "" H 8250 900 60  0000 C CNN
-	1    8250 900 
-	1    0    0    -1  
-$EndComp
 Connection ~ 8250 1050
 Connection ~ 8250 2100
 $Comp
@@ -675,24 +631,13 @@ Wire Wire Line
 Wire Wire Line
 	7050 3700 7900 3700
 Wire Wire Line
-	8250 3050 8250 3250
+	8250 2950 8250 3250
 Wire Wire Line
 	7550 3650 7550 4250
 Wire Wire Line
 	7550 4250 8250 4250
 Wire Wire Line
 	8250 4150 8250 4400
-$Comp
-L Live U?
-U 1 1 56B6C463
-P 8250 3050
-F 0 "U?" H 8300 3100 60  0000 C CNN
-F 1 "Live" H 8250 3300 60  0000 C CNN
-F 2 "" H 8250 3050 60  0000 C CNN
-F 3 "" H 8250 3050 60  0000 C CNN
-	1    8250 3050
-	1    0    0    -1  
-$EndComp
 Connection ~ 8250 3200
 Connection ~ 8250 4250
 $Comp
@@ -807,24 +752,13 @@ Wire Wire Line
 Wire Wire Line
 	7050 5650 7900 5650
 Wire Wire Line
-	8250 5000 8250 5200
+	8250 4950 8250 5200
 Wire Wire Line
 	7550 5600 7550 6200
 Wire Wire Line
 	7550 6200 8250 6200
 Wire Wire Line
 	8250 6100 8250 6350
-$Comp
-L Live U?
-U 1 1 56B6C8D4
-P 8250 5000
-F 0 "U?" H 8300 5050 60  0000 C CNN
-F 1 "Live" H 8250 5250 60  0000 C CNN
-F 2 "" H 8250 5000 60  0000 C CNN
-F 3 "" H 8250 5000 60  0000 C CNN
-	1    8250 5000
-	1    0    0    -1  
-$EndComp
 Connection ~ 8250 5150
 Connection ~ 8250 6200
 $Comp
@@ -838,4 +772,16 @@ F 3 "" H 8250 6350 60  0000 C CNN
 	1    8250 6350
 	-1   0    0    1   
 $EndComp
+Text Label 4250 750  1    60   ~ 0
+Live1
+Text Label 8250 750  1    60   ~ 0
+Live4
+Text Label 4250 2900 1    60   ~ 0
+Live2
+Text Label 8250 2950 1    60   ~ 0
+Live5
+Text Label 4250 4950 1    60   ~ 0
+Live3
+Text Label 8250 4950 1    60   ~ 0
+Live6
 $EndSCHEMATC

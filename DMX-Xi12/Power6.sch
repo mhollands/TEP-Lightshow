@@ -154,17 +154,6 @@ Wire Wire Line
 	5050 2400 5750 2400
 Wire Wire Line
 	5750 2300 5750 2550
-$Comp
-L Live U?
-U 1 1 56B99697
-P 5750 1200
-F 0 "U?" H 5800 1250 60  0000 C CNN
-F 1 "Live" H 5750 1450 60  0000 C CNN
-F 2 "" H 5750 1200 60  0000 C CNN
-F 3 "" H 5750 1200 60  0000 C CNN
-	1    5750 1200
-	1    0    0    -1  
-$EndComp
 Connection ~ 5750 1350
 Connection ~ 5750 2400
 $Comp
@@ -286,17 +275,21 @@ Wire Wire Line
 	5050 4500 5750 4500
 Wire Wire Line
 	5750 4400 5750 4650
-$Comp
-L Live U?
-U 1 1 56B996E8
-P 5750 3300
-F 0 "U?" H 5800 3350 60  0000 C CNN
-F 1 "Live" H 5750 3550 60  0000 C CNN
-F 2 "" H 5750 3300 60  0000 C CNN
-F 3 "" H 5750 3300 60  0000 C CNN
-	1    5750 3300
-	1    0    0    -1  
-$EndComp
 Connection ~ 5750 3450
 Connection ~ 5750 4500
+Text Label 5750 1200 1    60   ~ 0
+Live31
+Text Label 5750 3300 1    60   ~ 0
+Live32
+$Comp
+L Neutral U?
+U 1 1 56CBD3DB
+P 5750 4650
+F 0 "U?" H 6000 4850 60  0000 C CNN
+F 1 "Neutral" H 5750 4900 60  0000 C CNN
+F 2 "" H 5750 4650 60  0000 C CNN
+F 3 "" H 5750 4650 60  0000 C CNN
+	1    5750 4650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

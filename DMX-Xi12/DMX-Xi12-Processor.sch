@@ -478,4 +478,12 @@ F 3 "" H 8450 3300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	8450 3300 8450 3200
+Text HLabel 3500 3600 0    60   Output ~ 0
+Zero_crossing
+Wire Wire Line
+	3500 3600 3600 3600
+Wire Wire Line
+	3600 3600 3600 4500
+Wire Wire Line
+	3600 4500 3850 4500
 $EndSCHEMATC

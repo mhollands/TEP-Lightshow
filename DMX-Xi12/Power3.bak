@@ -154,17 +154,6 @@ Wire Wire Line
 	4100 2050 4800 2050
 Wire Wire Line
 	4800 1950 4800 2200
-$Comp
-L Live U?
-U 1 1 56B8542A
-P 4800 850
-F 0 "U?" H 4850 900 60  0000 C CNN
-F 1 "Live" H 4800 1100 60  0000 C CNN
-F 2 "" H 4800 850 60  0000 C CNN
-F 3 "" H 4800 850 60  0000 C CNN
-	1    4800 850 
-	1    0    0    -1  
-$EndComp
 Connection ~ 4800 1000
 Connection ~ 4800 2050
 $Comp
@@ -286,17 +275,6 @@ Wire Wire Line
 	4100 4150 4800 4150
 Wire Wire Line
 	4800 4050 4800 4300
-$Comp
-L Live U?
-U 1 1 56B8547B
-P 4800 2950
-F 0 "U?" H 4850 3000 60  0000 C CNN
-F 1 "Live" H 4800 3200 60  0000 C CNN
-F 2 "" H 4800 2950 60  0000 C CNN
-F 3 "" H 4800 2950 60  0000 C CNN
-	1    4800 2950
-	1    0    0    -1  
-$EndComp
 Connection ~ 4800 3100
 Connection ~ 4800 4150
 $Comp
@@ -418,17 +396,6 @@ Wire Wire Line
 	4100 6200 4800 6200
 Wire Wire Line
 	4800 6100 4800 6350
-$Comp
-L Live U?
-U 1 1 56B854CC
-P 4800 5000
-F 0 "U?" H 4850 5050 60  0000 C CNN
-F 1 "Live" H 4800 5250 60  0000 C CNN
-F 2 "" H 4800 5000 60  0000 C CNN
-F 3 "" H 4800 5000 60  0000 C CNN
-	1    4800 5000
-	1    0    0    -1  
-$EndComp
 Connection ~ 4800 5150
 Connection ~ 4800 6200
 $Comp
@@ -550,17 +517,6 @@ Wire Wire Line
 	8100 2050 8800 2050
 Wire Wire Line
 	8800 1950 8800 2200
-$Comp
-L Live U?
-U 1 1 56B8551D
-P 8800 850
-F 0 "U?" H 8850 900 60  0000 C CNN
-F 1 "Live" H 8800 1100 60  0000 C CNN
-F 2 "" H 8800 850 60  0000 C CNN
-F 3 "" H 8800 850 60  0000 C CNN
-	1    8800 850 
-	1    0    0    -1  
-$EndComp
 Connection ~ 8800 1000
 Connection ~ 8800 2050
 $Comp
@@ -682,17 +638,6 @@ Wire Wire Line
 	8100 4200 8800 4200
 Wire Wire Line
 	8800 4100 8800 4350
-$Comp
-L Live U?
-U 1 1 56B8556E
-P 8800 3000
-F 0 "U?" H 8850 3050 60  0000 C CNN
-F 1 "Live" H 8800 3250 60  0000 C CNN
-F 2 "" H 8800 3000 60  0000 C CNN
-F 3 "" H 8800 3000 60  0000 C CNN
-	1    8800 3000
-	1    0    0    -1  
-$EndComp
 Connection ~ 8800 3150
 Connection ~ 8800 4200
 $Comp
@@ -814,17 +759,6 @@ Wire Wire Line
 	8100 6150 8800 6150
 Wire Wire Line
 	8800 6050 8800 6300
-$Comp
-L Live U?
-U 1 1 56B855BF
-P 8800 4950
-F 0 "U?" H 8850 5000 60  0000 C CNN
-F 1 "Live" H 8800 5200 60  0000 C CNN
-F 2 "" H 8800 4950 60  0000 C CNN
-F 3 "" H 8800 4950 60  0000 C CNN
-	1    8800 4950
-	1    0    0    -1  
-$EndComp
 Connection ~ 8800 5100
 Connection ~ 8800 6150
 $Comp
@@ -838,4 +772,16 @@ F 3 "" H 8800 6300 60  0000 C CNN
 	1    8800 6300
 	-1   0    0    1   
 $EndComp
+Text Label 4800 850  1    60   ~ 0
+Live13
+Text Label 8800 850  1    60   ~ 0
+Live16
+Text Label 4800 2950 1    60   ~ 0
+Live14
+Text Label 4800 5000 1    60   ~ 0
+Live15
+Text Label 8800 4950 1    60   ~ 0
+Live18
+Text Label 8800 3000 1    60   ~ 0
+Live17
 $EndSCHEMATC
