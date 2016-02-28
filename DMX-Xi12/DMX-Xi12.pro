@@ -1,4 +1,4 @@
-update=05/02/2016 23:12:33
+update=28/02/2016 01:52:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=M:/Google Drive/GitHub/TEP-Lightshow/Components/DMX-Xi12
 LibName31=dips-s.lib/dips-s
 LibName32=MyPower
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
