@@ -1426,7 +1426,7 @@
   )
 
   (module Components:Screw-terminal (layer F.Cu) (tedit 5701FA27) (tstamp 570211C4)
-    (at 93.98 12.7)
+    (at 91.44 12.7)
     (path /570B1AFF)
     (fp_text reference Con6 (at 0 3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1449,7 +1449,7 @@
   )
 
   (module Components:Screw-terminal (layer F.Cu) (tedit 5701FA27) (tstamp 570211D0)
-    (at 124.46 12.7)
+    (at 121.92 12.7)
     (path /570B1DDE)
     (fp_text reference Con7 (at 0 3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1472,7 +1472,7 @@
   )
 
   (module Components:Screw-terminal (layer F.Cu) (tedit 5701FA27) (tstamp 570211DC)
-    (at 154.94 12.7)
+    (at 152.4 12.7)
     (path /570B20AE)
     (fp_text reference Con8 (at 0 3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1495,7 +1495,7 @@
   )
 
   (module Components:Screw-terminal (layer F.Cu) (tedit 5701FA27) (tstamp 570211E8)
-    (at 185.42 12.7)
+    (at 182.88 12.7)
     (path /570B2381)
     (fp_text reference Con9 (at 0 3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5684,7 +5684,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 570219BE)
-    (at 83.82 30.48)
+    (at 81.28 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DC24)
@@ -5725,7 +5725,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 570219D3)
-    (at 96.52 30.48)
+    (at 93.98 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DBF3)
@@ -5766,7 +5766,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 570219E8)
-    (at 96.52 48.26)
+    (at 93.98 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DC86)
@@ -5807,7 +5807,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 570219FD)
-    (at 83.82 48.26)
+    (at 81.28 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DC55)
@@ -5848,7 +5848,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021A0E)
-    (at 86.36 22.86 180)
+    (at 83.82 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DC42)
@@ -5874,7 +5874,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021A1F)
-    (at 101.6 22.86 180)
+    (at 99.06 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DC11)
@@ -5900,7 +5900,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021A30)
-    (at 86.36 40.64 180)
+    (at 83.82 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DCA4)
@@ -5926,7 +5926,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021A41)
-    (at 101.6 40.64 180)
+    (at 99.06 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DC73)
@@ -5952,7 +5952,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021A56)
-    (at 127 48.26)
+    (at 124.46 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DCE8)
@@ -5993,7 +5993,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021A6B)
-    (at 114.3 48.26)
+    (at 111.76 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DCB7)
@@ -6034,7 +6034,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021A80)
-    (at 127 30.48)
+    (at 124.46 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DD4A)
@@ -6075,7 +6075,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021A95)
-    (at 114.3 30.48)
+    (at 111.76 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DD19)
@@ -6116,7 +6116,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021AA6)
-    (at 116.84 22.86 180)
+    (at 114.3 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DD06)
@@ -6142,7 +6142,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021AB7)
-    (at 132.08 22.86 180)
+    (at 129.54 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DCD5)
@@ -6168,7 +6168,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021AC8)
-    (at 116.84 40.64 180)
+    (at 114.3 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DD68)
@@ -6194,7 +6194,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021AD9)
-    (at 132.08 40.64 180)
+    (at 129.54 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DD37)
@@ -6220,7 +6220,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021AEE)
-    (at 157.48 48.26)
+    (at 154.94 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DDAC)
@@ -6261,7 +6261,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021B03)
-    (at 144.78 48.26)
+    (at 142.24 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DD7B)
@@ -6302,7 +6302,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021B18)
-    (at 157.48 30.48)
+    (at 154.94 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DE0E)
@@ -6343,7 +6343,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021B2D)
-    (at 144.78 30.48)
+    (at 142.24 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DDDD)
@@ -6384,7 +6384,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021B3E)
-    (at 147.32 22.86 180)
+    (at 144.78 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DDCA)
@@ -6410,7 +6410,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021B4F)
-    (at 162.56 22.86 180)
+    (at 160.02 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DD99)
@@ -6436,7 +6436,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021B60)
-    (at 147.32 40.64 180)
+    (at 144.78 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DE2C)
@@ -6462,7 +6462,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021B71)
-    (at 162.56 40.64 180)
+    (at 160.02 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DDFB)
@@ -6488,7 +6488,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021B86)
-    (at 187.96 48.26)
+    (at 185.42 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DE70)
@@ -6529,7 +6529,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021B9B)
-    (at 175.26 48.26)
+    (at 172.72 48.26)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DE3F)
@@ -6570,7 +6570,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021BB0)
-    (at 187.96 30.48)
+    (at 185.42 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DED2)
@@ -6611,7 +6611,7 @@
   )
 
   (module Housings_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 57021BC5)
-    (at 175.26 30.48)
+    (at 172.72 30.48)
     (descr "6-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56B6F54D/56D6DEA1)
@@ -6652,7 +6652,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021BD6)
-    (at 177.8 22.86 180)
+    (at 175.26 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DE8E)
@@ -6678,7 +6678,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021BE7)
-    (at 193.04 22.86 180)
+    (at 190.5 22.86 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DE5D)
@@ -6704,7 +6704,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021BF8)
-    (at 177.8 40.64 180)
+    (at 175.26 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DEF0)
@@ -6730,7 +6730,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 57021C09)
-    (at 193.04 40.64 180)
+    (at 190.5 40.64 180)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /56B6F54D/56D6DEBF)

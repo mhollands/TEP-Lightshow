@@ -1,4 +1,4 @@
-update=28/02/2016 01:52:57
+update=04/04/2016 01:31:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../Components;../../../../Update and Installs/Updates and Installs/Kicad
+LibDir=../Components;../../../../Update and Installs/Updates and Installs/Kicad;../../TEP-Lightshow
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,13 +71,3 @@ LibName29=valves
 LibName30=M:/Google Drive/GitHub/TEP-Lightshow/Components/DMX-Xi12
 LibName31=dips-s.lib/dips-s
 LibName32=MyPower
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
