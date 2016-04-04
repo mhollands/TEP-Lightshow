@@ -311,17 +311,15 @@ Wire Wire Line
 	6550 5550 6350 5550
 Wire Wire Line
 	6350 5650 6550 5650
-Wire Wire Line
-	6550 5750 6350 5750
 $Comp
 L Screw-terminal Con2
 U 1 1 5703BB88
-P 6750 2600
-F 0 "Con2" H 7100 2550 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 2700 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 2550 60  0000 C CNN
-F 3 "" H 6900 2600 60  0000 C CNN
-	1    6750 2600
+P 6750 2700
+F 0 "Con2" H 7100 2650 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 2800 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 2650 60  0000 C CNN
+F 3 "" H 6900 2700 60  0000 C CNN
+	1    6750 2700
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -364,93 +362,107 @@ F33 "Live16" I R 6350 4050 60
 F34 "LiveA" I R 6350 2450 60 
 $EndSheet
 Wire Wire Line
-	6350 2450 6550 2450
+	6350 2450 8900 2450
 $Comp
 L Screw-terminal Con3
 U 1 1 570B129C
-P 6750 3000
-F 0 "Con3" H 7100 2950 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 3100 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 2950 60  0000 C CNN
-F 3 "" H 6900 3000 60  0000 C CNN
-	1    6750 3000
+P 6750 3100
+F 0 "Con3" H 7100 3050 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 3200 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 3050 60  0000 C CNN
+F 3 "" H 6900 3100 60  0000 C CNN
+	1    6750 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con4
 U 1 1 570B1564
-P 6750 3400
-F 0 "Con4" H 7100 3350 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 3500 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 3350 60  0000 C CNN
-F 3 "" H 6900 3400 60  0000 C CNN
-	1    6750 3400
+P 6750 3500
+F 0 "Con4" H 7100 3450 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 3600 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 3450 60  0000 C CNN
+F 3 "" H 6900 3500 60  0000 C CNN
+	1    6750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con5
 U 1 1 570B1833
-P 6750 3800
-F 0 "Con5" H 7100 3750 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 3900 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 3750 60  0000 C CNN
-F 3 "" H 6900 3800 60  0000 C CNN
-	1    6750 3800
+P 6750 3900
+F 0 "Con5" H 7100 3850 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 4000 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 3850 60  0000 C CNN
+F 3 "" H 6900 3900 60  0000 C CNN
+	1    6750 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con6
 U 1 1 570B1AFF
-P 6750 4200
-F 0 "Con6" H 7100 4150 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 4300 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 4150 60  0000 C CNN
-F 3 "" H 6900 4200 60  0000 C CNN
-	1    6750 4200
+P 6750 4300
+F 0 "Con6" H 7100 4250 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 4400 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 4250 60  0000 C CNN
+F 3 "" H 6900 4300 60  0000 C CNN
+	1    6750 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con7
 U 1 1 570B1DDE
-P 6750 4600
-F 0 "Con7" H 7100 4550 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 4700 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 4550 60  0000 C CNN
-F 3 "" H 6900 4600 60  0000 C CNN
-	1    6750 4600
+P 6750 4700
+F 0 "Con7" H 7100 4650 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 4800 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 4650 60  0000 C CNN
+F 3 "" H 6900 4700 60  0000 C CNN
+	1    6750 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con8
 U 1 1 570B20AE
-P 6750 5000
-F 0 "Con8" H 7100 4950 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 5100 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 4950 60  0000 C CNN
-F 3 "" H 6900 5000 60  0000 C CNN
-	1    6750 5000
+P 6750 5100
+F 0 "Con8" H 7100 5050 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 5200 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 5050 60  0000 C CNN
+F 3 "" H 6900 5100 60  0000 C CNN
+	1    6750 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con9
 U 1 1 570B2381
-P 6750 5400
-F 0 "Con9" H 7100 5350 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 5500 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 5350 60  0000 C CNN
-F 3 "" H 6900 5400 60  0000 C CNN
-	1    6750 5400
+P 6750 5500
+F 0 "Con9" H 7100 5450 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 5600 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 5450 60  0000 C CNN
+F 3 "" H 6900 5500 60  0000 C CNN
+	1    6750 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Screw-terminal Con10
 U 1 1 570B2655
-P 6750 5800
-F 0 "Con10" H 7100 5750 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 5900 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 5750 60  0000 C CNN
-F 3 "" H 6900 5800 60  0000 C CNN
-	1    6750 5800
+P 6750 5900
+F 0 "Con10" H 7100 5850 60  0000 C CNN
+F 1 "Screw-terminal" H 7350 6000 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 7900 5850 60  0000 C CNN
+F 3 "" H 6900 5900 60  0000 C CNN
+	1    6750 5900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8900 2450 8900 6300
+Wire Wire Line
+	8900 6300 6450 6300
+Wire Wire Line
+	6450 6300 6450 5750
+Wire Wire Line
+	6450 5750 6550 5750
+Wire Wire Line
+	6350 5750 6400 5750
+Wire Wire Line
+	6400 5750 6400 6050
+Wire Wire Line
+	6400 6050 6550 6050
 $EndSCHEMATC

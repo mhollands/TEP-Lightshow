@@ -311,8 +311,6 @@ Wire Wire Line
 	6550 5550 6350 5550
 Wire Wire Line
 	6350 5650 6550 5650
-Wire Wire Line
-	6550 5750 6350 5750
 $Comp
 L Screw-terminal Con2
 U 1 1 5703BB88
@@ -458,7 +456,13 @@ Wire Wire Line
 Wire Wire Line
 	8900 6300 6450 6300
 Wire Wire Line
-	6450 6300 6450 6050
+	6450 6300 6450 5750
 Wire Wire Line
-	6450 6050 6550 6050
+	6450 5750 6550 5750
+Wire Wire Line
+	6350 5750 6400 5750
+Wire Wire Line
+	6400 5750 6400 6050
+Wire Wire Line
+	6400 6050 6550 6050
 $EndSCHEMATC
