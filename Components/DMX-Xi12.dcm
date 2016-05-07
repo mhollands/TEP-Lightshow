@@ -30,4 +30,14 @@ K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
 #
+$CMP LTV-354T
+D MFSOP6, AC/DC Optocoupler, Vce 35V, CTR 20%
+K NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-354T*
+D MFSOP6, AC/DC Optocoupler, Vce 35V, CTR 20%
+K NPN AC DC Optocoupler
+$ENDCMP
+#
 #End Doc Library

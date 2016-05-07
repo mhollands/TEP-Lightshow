@@ -56,7 +56,7 @@ F3 "TX_ENABLE" I R 3450 3400 60
 F4 "RX" O R 3450 3200 60 
 $EndSheet
 $Sheet
-S 4042 2508 1258 3242
+S 4042 2508 1258 3742
 U 56AE176E
 F0 "Processor" 60
 F1 "DMX-Xi12-Processor.sch" 60
@@ -92,11 +92,11 @@ F30 "CH31" O R 5300 5550 60
 F31 "CH28" O R 5300 5250 60 
 F32 "CH29" O R 5300 5350 60 
 F33 "CH32" O R 5300 5650 60 
-F34 "RX" I L 4042 3200 60 
-F35 "RX_ENABLE" O L 4042 3600 60 
-F36 "TX_ENABLE" O L 4042 3400 60 
-F37 "Zero_crossingA" I L 4042 3000 60 
-F38 "Zero_crossingB" I L 4042 2800 60 
+F34 "RX" I R 5300 5950 60 
+F35 "RX_ENABLE" O R 5300 6150 60 
+F36 "TX_ENABLE" O R 5300 6050 60 
+F37 "Zero_crossingA" I R 5300 5750 60 
+F38 "Zero_crossingB" I R 5300 5850 60 
 $EndSheet
 $Sheet
 S 1000 1000 1000 900 
@@ -107,17 +107,12 @@ F2 "Zero_crossingA" O R 2000 1500 60
 F3 "Zero_crossingB" O R 2000 1350 60 
 F4 "LiveA" I R 2000 1650 60 
 F5 "LiveB" I R 2000 1200 60 
-F6 "NeutralA" I R 2000 1800 60 
-F7 "NeutralB" I R 2000 1050 60 
+F6 "Neutral" I R 2000 1050 60 
 $EndSheet
-Text Label 2300 1800 0    60   ~ 0
-NeutralA
 Text Label 2300 1650 0    60   ~ 0
 LiveA
 Text Label 2300 1200 0    60   ~ 0
 LiveB
-Text Label 2300 1050 0    60   ~ 0
-NeutralB
 $Sheet
 S 5650 4100 700  1700
 U 56B6F54D
@@ -125,8 +120,8 @@ F0 "Power2" 60
 F1 "Power2.sch" 60
 F2 "CH18" I L 5650 4250 60 
 F3 "CH17" I L 5650 4150 60 
-F4 "CH20" I L 5650 4350 60 
-F5 "CH19" I L 5650 4450 60 
+F4 "CH20" I L 5650 4450 60 
+F5 "CH19" I L 5650 4350 60 
 F6 "CH22" I L 5650 4650 60 
 F7 "CH21" I L 5650 4550 60 
 F8 "CH24" I L 5650 4850 60 
@@ -157,12 +152,6 @@ F32 "Live32" I R 6350 5650 60
 F33 "CH29" I L 5650 5350 60 
 F34 "LiveB" I R 6350 5750 60 
 $EndSheet
-Wire Wire Line
-	4050 3200 3450 3200
-Wire Wire Line
-	4050 3600 3450 3600
-Wire Wire Line
-	4050 3400 3450 3400
 Wire Wire Line
 	5300 2550 5650 2550
 Wire Wire Line
@@ -227,20 +216,6 @@ Wire Wire Line
 	5300 5550 5650 5550
 Wire Wire Line
 	5650 5650 5300 5650
-Wire Wire Line
-	4050 3000 3550 3000
-Wire Wire Line
-	4050 2800 3700 2800
-Wire Wire Line
-	2000 1500 3550 1500
-Wire Wire Line
-	3700 1350 2000 1350
-Wire Wire Line
-	3700 2800 3700 1350
-Wire Wire Line
-	3550 1500 3550 3000
-Wire Wire Line
-	2300 1800 2000 1800
 Wire Wire Line
 	2000 1050 2300 1050
 Wire Wire Line
@@ -361,8 +336,6 @@ F32 "Live15" I R 6350 3950 60
 F33 "Live16" I R 6350 4050 60 
 F34 "LiveA" I R 6350 2450 60 
 $EndSheet
-Wire Wire Line
-	6350 2450 8900 2450
 $Comp
 L Screw-terminal Con3
 U 1 1 570B129C
@@ -443,26 +416,88 @@ $EndComp
 $Comp
 L Screw-terminal Con10
 U 1 1 570B2655
-P 6750 5900
-F 0 "Con10" H 7100 5850 60  0000 C CNN
-F 1 "Screw-terminal" H 7350 6000 60  0000 C CNN
-F 2 "Components:Screw-terminal" H 7900 5850 60  0000 C CNN
-F 3 "" H 6900 5900 60  0000 C CNN
-	1    6750 5900
+P 9950 2600
+F 0 "Con10" H 10300 2550 60  0000 C CNN
+F 1 "Screw-terminal" H 10550 2700 60  0000 C CNN
+F 2 "Components:Screw-terminal" H 11100 2550 60  0000 C CNN
+F 3 "" H 10100 2600 60  0000 C CNN
+	1    9950 2600
 	1    0    0    -1  
 $EndComp
+Text Label 9500 2550 2    60   ~ 0
+Neutral
 Wire Wire Line
-	8900 2450 8900 6300
+	3800 1350 3800 6650
 Wire Wire Line
-	8900 6300 6450 6300
+	3800 1350 2000 1350
 Wire Wire Line
-	6450 6300 6450 5750
+	3600 1500 3600 6700
 Wire Wire Line
-	6450 5750 6550 5750
+	3600 1500 2000 1500
 Wire Wire Line
-	6350 5750 6400 5750
+	5300 5750 5600 5750
 Wire Wire Line
-	6400 5750 6400 6050
+	5300 5850 5550 5850
 Wire Wire Line
-	6400 6050 6550 6050
+	5600 5750 5600 6700
+Wire Wire Line
+	5600 6700 3600 6700
+Wire Wire Line
+	3800 6650 5550 6650
+Wire Wire Line
+	5550 6650 5550 5850
+Wire Wire Line
+	5300 5950 5500 5950
+Wire Wire Line
+	5500 5950 5500 6600
+Wire Wire Line
+	5500 6600 3850 6600
+Wire Wire Line
+	3850 6600 3850 3200
+Wire Wire Line
+	3850 3200 3450 3200
+Wire Wire Line
+	5300 6050 5450 6050
+Wire Wire Line
+	5450 6050 5450 6550
+Wire Wire Line
+	5450 6550 3900 6550
+Wire Wire Line
+	3900 6550 3900 3400
+Wire Wire Line
+	3900 3400 3450 3400
+Wire Wire Line
+	5300 6150 5400 6150
+Wire Wire Line
+	5400 6150 5400 6500
+Wire Wire Line
+	5400 6500 3950 6500
+Wire Wire Line
+	3950 6500 3950 3600
+Wire Wire Line
+	3950 3600 3450 3600
+Text Label 6550 2450 0    60   ~ 0
+LiveA
+Text Label 9500 2750 2    60   ~ 0
+LiveB
+Wire Wire Line
+	6550 2450 6350 2450
+Text Label 9500 2450 2    60   ~ 0
+LiveA
+Wire Wire Line
+	9500 2450 9750 2450
+Wire Wire Line
+	9750 2550 9500 2550
+Wire Wire Line
+	9500 2650 9750 2650
+Wire Wire Line
+	9750 2750 9500 2750
+Text Label 6450 5750 0    60   ~ 0
+LiveB
+Wire Wire Line
+	6450 5750 6350 5750
+Text Label 2300 1050 0    60   ~ 0
+Neutral
+Text Label 9500 2650 2    60   ~ 0
+Earth
 $EndSCHEMATC
