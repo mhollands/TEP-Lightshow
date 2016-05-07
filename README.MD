@@ -1,0 +1,1 @@
+This is the 2016 redesign of the Tau Epsilon Phi, Xi Chapter (MIT) light show. The aim is to have 32 individually addressable 20A wall outlets (on the ceiling). Using the DMX512 protocol, we will be able to turn on, turn off or dim any of the 32 outlets.
